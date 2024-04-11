@@ -62,6 +62,7 @@ body{
     width: 100%;
     background-image: url(../img/mine.jpg);
     height: 100vh;
+    overflow: scroll;
 
    }
    .bg-color-main {
@@ -124,11 +125,13 @@ body{
        }
     .col:last-child {
         width: calc(100% / 3 * 2);
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 95vh;
         
        }
-       .chat {
-        height: 100%;
-       }
-        
+       
+
    }
   
